@@ -156,7 +156,49 @@ header nav ul li:hover{
     height: 95vh;
     background-image: url(images/modalite.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center ;
+}
+.cities-sec h2{
+    vertical-align: inherit;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+}
+.cities-sec a{
+    font-size: 16px;
+    vertical-align: inherit;
+    line-height: 32px;
+    font-weight: normal;
+    border-bottom: 1px solid rgb(197, 193, 193);
+    padding-bottom: 10px;
+    color: #333333;
+    align-items: center;
+}
+
+
+.buss-sec h2{
+    line-height: 44px;
+    font-size: 36px;
+}
+.buss-sec h6{
+    line-height: 24px;
+    font-size: 18px;
+}
+.buss-sec p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #757373;
+}
+.buss-sec a{
+    font-size: 16px;
+    vertical-align: inherit;
+    line-height: 32px;
+    font-weight: normal;
+    border-bottom: 1px solid #757373;
+
+    color: #333333;
+    align-items: center;
 }
 @media (min-width:1024px){
     .section-container{
