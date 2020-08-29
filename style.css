@@ -22,9 +22,7 @@ header nav{
 .nav-footer-container{
     padding:0 72px 0 72px;
 }
-.section-container{
-    padding:45px 136px 0 136px;
-}
+
 
 header nav ul{
    margin-left: 90px; 
@@ -101,5 +99,125 @@ header nav ul li:hover{
     height: auto;
 }
 #tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8{
-    padding-bottom: 40px;
+    padding-bottom: 4%;
+    padding-top:24px;
+    padding-left:24px;
+
+    padding-right:24px;
+
+
+}
+
+.tab-sec h2{
+    vertical-align: inherit;
+    font-size: 52px;
+    line-height: 64px;
+
+}
+.tab-sec p{
+    line-height: 24px;
+    margin-bottom: 18px;    
+    margin-top: 18px;
+    font-weight: normal;
+    font-size: 16px;
+    display: block;
+
+}
+.tab-sec button{
+    background-color: black;
+    color: white;
+
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.tab-sec a{
+    font-size: 16px;
+    vertical-align: inherit;
+    line-height: 32px;
+    font-weight: normal;
+    border-bottom: 1px solid rgb(197, 193, 193);
+    padding-bottom: 10px;
+    color: black;
+    margin-left: 10px;
+}
+.tab-sec a:hover{
+    border-bottom: 1px solid black;
+  transition: step-start 0.4s;
+}
+
+@media (min-width:1024px){
+    .section-container{
+        padding:50px 136px 0 136px;
+    }
+    #section{
+        width: 100%;
+        height: 100vh;
+
+    }
+    
+    #tabs-size{
+        width: 100%;
+        height: auto;
+        display: block;
+        align-items: center;
+ }
+
+    
+    #tab-size{
+        width:12%;
+    }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+    .section-container{
+        padding:50px 50px 0 50px;
+    } 
+    #section{
+        width: 100%;
+        height: 95vh;
+
+    }
+    
+    
+    #tabs-size{
+        width: 100%;
+        height: auto;
+        display: block;
+        align-items: center;
+ }
+
+    
+    #tab-size{
+        width:12%;
+    }
+}
+@media (max-width:600px){
+    .section-container{
+        padding:45px 5px 0 5px;
+    }
+    #section{
+        width: 100%;
+    
+
+        height: 90vh;
+        
+    }
+    
+    #tabs-size{
+        width: 100%;
+        height: auto;
+        display: block;
+        align-items: center;
+ }
+
+    
+    #tab-size{
+        width:25%;
+    }
 }
