@@ -201,7 +201,7 @@ header nav ul li:hover{
     align-items: center;
 }
 .safety-sec img{
-    padding-top: 100px;
+    padding-top: 90px;
 }
 .safety-sec h2{
     line-height: 44px;
@@ -223,6 +223,33 @@ header nav ul li:hover{
     color: #333333;
     align-items: center;
 }
+
+.about-sec img{
+    margin-top:60px;
+}
+.about-sec h6{
+    line-height: 24px;
+    font-size: 18px;
+}
+.about-sec p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #757373;
+}
+.about-sec a{
+    font-size: 16px;
+    vertical-align: inherit;
+    line-height: 32px;
+    font-weight: normal;
+    border-bottom: 1px solid #757373;
+
+    color: #333333;
+    align-items: center;
+}
+
+
+
 @media (min-width:1024px){
     .section-container{
         padding:50px 136px 0 136px;
@@ -267,6 +294,9 @@ header nav ul li:hover{
     #tab-size{
         width:12%;
     }
+    .safety-sec img{
+        padding-top: 2px;
+    }
 }
 @media (max-width:600px){
     .section-container{
@@ -290,5 +320,8 @@ header nav ul li:hover{
     
     #tab-size{
         width:25%;
+    }
+    safety-sec img{
+        padding-top: 2px;
     }
 }
