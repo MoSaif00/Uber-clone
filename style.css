@@ -200,6 +200,29 @@ header nav ul li:hover{
     color: #333333;
     align-items: center;
 }
+.safety-sec img{
+    padding-top: 100px;
+}
+.safety-sec h2{
+    line-height: 44px;
+    font-size: 36px;
+}
+.safety-sec p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #757373;
+}
+.safety-sec a{
+    font-size: 14px;
+    vertical-align: inherit;
+    line-height: 24px;
+    font-weight: normal;
+    border-bottom: 1px solid #757373;
+
+    color: #333333;
+    align-items: center;
+}
 @media (min-width:1024px){
     .section-container{
         padding:50px 136px 0 136px;
