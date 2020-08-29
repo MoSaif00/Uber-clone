@@ -21,11 +21,45 @@
 <body>
   <!-- Navbar / tabs--> 
   <header>
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">About us</a></li>   
+      <li><a href="#!">How Uber Works</a></li>    
+      <li><a href="#!">Global Citizenship</a></li>    
+      <li><a href="#!">Newsroom</a></li>    
+      <li><a href="#!">Investors</a></li>    
+      <li><a href="#!">Blog</a></li>    
+      <li><a href="#!">Working at Uber </a></li>   
+    </ul>
+
     <nav class="nav-wrapper black">
       <div class="nav-footer-container">
-        <a href="#">hello</a>
-    
+        <a href="#" class="brand-logo ">Uber</a>
+        <ul class=" hide-on-med-and-down ">
+          <li><a class="dropdown-trigger " href="#!" data-target="dropdown1">Company <i class="material-icons right icon-align">arrow_drop_down</i></a></li>
+          <li><a href="https://www.chess.com/today" target="blank">Safety</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Information about COVID-19</a></li>
+        </ul>    
+        
+        <a href="" class="sidenav-trigger " data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
 
+        <a href="#!" id="sign-btn" class="btn right  black-text white waves-effect waves-dark ">Sign up</a>
+        <a class=" hide-on-large-only right " href="#"><i class="material-icons left icon-align ">person</i></a>  
+        <a class="hide-on-med-and-down right icon-links" href="#"><i class="material-icons left icon-align ">person</i>login</a>  
+        <a class="hide-on-med-and-down right icon-links" href="#"><i class="material-icons left icon-align">widgets</i>Products</a>  
+        <a class="hide-on-med-and-down right icon-links" href="#"><i class="material-icons left icon-align">language</i>NL-NL</a>  
+
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a class="dropdown-trigger " href="#!" data-target="dropdown1">Company <i class="material-icons right icon-align">arrow_drop_down</i></a></li>
+          <li><a href="#">Safety</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Information about COVID-19</a></li>
+          <li><a href="#"><i class="material-icons left icon-align">language</i>NL-NL</a></li>
+          <li><a href="#"><i class="material-icons left icon-align">widgets</i>Products</a></li>
+           
+        </ul>
       </div>
     </nav>
   </header>
@@ -54,7 +88,11 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script>
+    $(document).ready(function(){
+      $('.dropdown-trigger').dropdown();
+      $('.sidenav').sidenav();
 
+    })
 
   </script>
 </body>

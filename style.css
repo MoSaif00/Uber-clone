@@ -15,3 +15,32 @@ header nav{
 .nav-footer-container{
     padding:0 72px 0 72px;
 }
+
+header nav ul{
+   margin-left: 90px; 
+}
+header nav ul li{
+    padding-right: 7px;
+   
+}
+header nav ul li:hover{
+    background-color: #666464;
+    border-radius: 50px;    
+}
+
+.icon-align{
+    padding-top: 4px;
+
+}   
+.icon-links{
+    padding-right: 30px;
+}
+
+#sign-btn{
+    margin-top: 13px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
