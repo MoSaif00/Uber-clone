@@ -249,6 +249,62 @@ header nav ul li:hover{
 }
 
 
+.footer-head{
+    padding-bottom: 60px;
+}
+.footer-head h4{
+    white-space: nowrap;
+    line-height: 80px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer-head a{
+    vertical-align: inherit;
+    padding-bottom: 2px;
+    font-weight: 400;
+    will-change: background-size;
+    color: white;
+}
+.footer-head a:hover{
+    text-decoration: underline;
+}
+
+.footer-content{
+    margin-bottom: 30px;
+}
+
+.footer-content a{
+    line-height: 20px;
+    font-size: 14px;
+
+vertical-align: inherit;
+    padding-bottom: 2px;
+    font-weight: normal;
+    color: rgb(182, 179, 179);
+}
+
+.contact-sec{
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+justify-content: space-around;
+}
+.contact-sec a{
+    color: white;
+    letter-spacing: 2px;
+    
+}
+.contact-sec a i{
+    padding-right: 5px;
+}
+.contact-sec a:hover{
+    color: rgb(165, 160, 160);
+    
+}
+.contact-sec img{
+    width:120px;
+}
+
 
 @media (min-width:1024px){
     .section-container{
