@@ -36,10 +36,7 @@ header nav ul li:hover{
 }
 #sign-btn{
     margin-top: 13px;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-radius: 20px;
 }
 
 /*  styling first section and the tabs */
